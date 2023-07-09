@@ -1,8 +1,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+header{
+    background-color: bisque;
+}
 nav{
     display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .btn-primary{
@@ -17,23 +22,44 @@ nav{
     color: #181818;
     font-family: Open Sans;
     font-size: 45px;
-   
     font-weight: 800;
     
 }
 
 nav ul{
     display: flex;
-    
+    gap: 90px;  
     
 }
 
 nav  li{
     list-style: none;
-    margin-right: 50px;
+    
+   
+    
 }
 
 nav a{
     text-decoration: none; 
     color: #474747; 
+    
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    padding-bottom: opx;
+}
+.banner-content{
+    text-align: justify;
+}
+.banner .profile-pic{
+    width: 400px;
+    height: 500px;
+    margin-right: 0px;
+    padding-right: 0px;
 }

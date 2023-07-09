@@ -1,0 +1,3 @@
+align-items: center;{ek line e korar jonno}
+justify-content:space-between;{একই লাইনের দুইটা ক্লাস 
+এর মধ্যে স্পেস দেয়ার জন্য।একটা বামে আরেকটা ডাণে থাকবে}
